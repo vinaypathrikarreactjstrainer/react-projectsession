@@ -1,0 +1,16 @@
+.title {
+    font-size: 2.1em;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.title span {
+    color: #FF6F48;
+}
+.summary {
+    color: #808080;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 1.2em;
+}
