@@ -1,0 +1,44 @@
+#dark {
+
+}
+
+#dark header {
+    background-color: #232128;
+    padding: 10px;
+}
+
+#dark image {
+    padding: 20px;
+    border: 3px dashed black;
+}
+
+#dark .image img {
+    width: 50%;
+}
+#dark .summry {
+    text-align: justify;
+    padding: 20px;
+    background-color: black;
+    color: yellow;
+}
+
+#light header {
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+#light image {
+    padding: 20px;
+    border: 3px dashed black;
+
+}
+
+#light .image img {
+    width: 50%;
+}
+#light .summry {
+    text-align: justify;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #808080;
+}

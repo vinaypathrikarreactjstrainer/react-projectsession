@@ -1,5 +1,7 @@
 import React from "react";
 import Skills from "./components/skill/Skills";
+import Carousal from "./components/carousel/Carousal";
+import Themes from "./components/themes/Themes";
 
 const App = () => {
   const data = [
@@ -14,7 +16,9 @@ const App = () => {
   ]
   return(
     <>
-      <Skills skill = {data} />
+      {/* <Carousal />
+      <Skills skill = {data} /> */}
+      <Themes />
     </>
   )
 }
