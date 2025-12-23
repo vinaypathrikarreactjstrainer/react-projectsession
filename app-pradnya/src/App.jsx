@@ -3,6 +3,7 @@ import Skills from "./components/skill/Skills";
 import Carousal from "./components/carousel/Carousal";
 import Themes from "./components/themes/Themes";
 import UseMemo from "./components/assignments/UseMemo";
+import Search from "./components/assignments/Search";
 
 const App = () => {
   const data = [
@@ -20,7 +21,8 @@ const App = () => {
       {/* <Carousal />
       <Skills skill = {data} /> */}
       {/* <Themes /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <Search />
     </>
   )
 }
