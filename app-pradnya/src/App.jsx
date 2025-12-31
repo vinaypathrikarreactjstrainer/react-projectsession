@@ -4,6 +4,7 @@ import Carousal from "./components/carousel/Carousal";
 import Themes from "./components/themes/Themes";
 import UseMemo from "./components/assignments/UseMemo";
 import Search from "./components/assignments/Search";
+import Paginate from "./components/pagination/Paginate";
 
 const App = () => {
   const data = [
@@ -22,7 +23,8 @@ const App = () => {
       <Skills skill = {data} /> */}
       {/* <Themes /> */}
       {/* <UseMemo /> */}
-      <Search />
+      {/* <Search /> */}
+      <Paginate />
     </>
   )
 }
